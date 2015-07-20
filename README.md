@@ -7,8 +7,8 @@ I had made a mistake thinking that .data and .data() were equivalent when in rea
 "SystemVerilog Implicit Port Connections - Simulation & Synthesis" by Cliff Cummings
 
 ```
-multiplier multiplier_ex1 (.mult, .mop1, .data);
-multiplier multiplier_ex3 (.mult, .mop1, .data());
+mul ex1 (.mult, .mop1, .data);
+mul ex3 (.mult, .mop1, .data());
 ```
 
 ![Example](example.png)
